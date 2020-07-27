@@ -1,10 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8"/>
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>博客教程 | 一只科技菌</title>
+<title>一只科技菌</title>
 
 <link rel="shortcut icon" href="https://blog.yzzi.top//favicon.ico?v=1595872435057">
 
@@ -25,10 +27,19 @@
 
 
 
+    <script src="https://blog.yzzi.top//media/gridea-search/fuse.basic.min.js"></script>
+    <script src="https://blog.yzzi.top//media/gridea-search/ejs.min.js"></script>
+    <script src="https://blog.yzzi.top//media/gridea-search/gridea-search.js"></script>
+    <script src="https://blog.yzzi.top//media/gridea-search/result-template.ejs" type="text/ejs"></script>
 </head>
+
 <body>
-<div class="main gt-bg-theme-color-first">
-    <div class="main-content">
+    <style>
+        .searched-keyword {
+            background-color: yellow;
+        }
+    </style>
+    <div class="main animated">
         <nav class="navbar navbar-expand-lg">
     <div class="navbar-brand">
         <img class="user-avatar" src="/images/avatar.png" alt="头像">
@@ -91,59 +102,12 @@
             </div>
     </div>
 </nav>
-        <div class="current-tag-container">
-            <h2 class="title gt-c-content-color-first">
-                #博客教程
-            </h2>
+        <div id="gridea-search-result" data-update="1595872435057">
+            <div class="searching">搜索中......</div>
+            <div class="no-result" style="display:none">未搜索到相关文章</div>
         </div>
-        <div class="post-list-container">
-    <div class="post-inner">
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://blog.yzzi.top/5wwqheMyp/">
-                            <span class="post-title gt-c-content-color-first">如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2020-07-27 ·
-                        </time>
-                        
-                            <a href="https://blog.yzzi.top/yYvZWK3Ir/" class="post-tag">
-                                # 博客教程
-                            </a>
-                        
-                            <a href="https://blog.yzzi.top/FJThj_31aJ/" class="post-tag">
-                                # Github
-                            </a>
-                        
-                            <a href="https://blog.yzzi.top/Sr4STpqc1/" class="post-tag">
-                                # Gridea
-                            </a>
-                        
-                    </div>
-                </div>
-                
-                    <a href="https://blog.yzzi.top/5wwqheMyp/" class="post-feature-image"
-                       style="background-image: url('https://blog.yzzi.top//post-images/5wwqheMyp.png')">
-                    </a>
-                
-            </div>
-        
     </div>
-</div>
-        <div class="pagination-container">
-    
-    
-</div>
-
-        <div class="site-footer gt-c-content-color-first">
+    <div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first">我们一路奋战，不是为了改变世界，而是为了不让世界改变我们。</div>
     <div class="social-container">
         
@@ -181,7 +145,6 @@
     hljs.initHighlightingOnLoad()
 </script>
 
-    </div>
-</div>
 </body>
+
 </html>
