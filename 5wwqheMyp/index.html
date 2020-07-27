@@ -1,195 +1,149 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html amp lang="">
+
 <head>
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="为什么需要个人博客？
+  在网上搜索东西，你会发现，许多优质内容总是来自个人博客。个人博客不仅能帮助他人获取信息，也能帮自己记录有用的信息，充当笔记本。“对任何渴望进步的人来说，写博客/文章/回答对自己的成长帮助都是巨大的。频率和数量不必过..." />
+<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+<link rel="preconnect dns-prefetch" href="https://cdn.jsdelivr.net/" crossorigin>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<title>如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea | 柚子的小窝</title>
 
-<title>柚子的小窝</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="description" content="温故而知新"/>
-<meta name="keywords" content="温故而知新"/>
-
-<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-<link rel="shortcut icon" href="https://blog.yzzi.top//favicon.ico">
-
-<link rel="stylesheet" href="https://blog.yzzi.top//styles/main.css">
-
-<!-- Modernizr JS -->
-<script src="https://blog.yzzi.top//media/scripts/modernizr-2.6.2.min.js"></script>
-<!-- FOR IE9 below -->
-<!--[if lt IE 9]>
-<scripts src="https://blog.yzzi.top//media/scripts/respond.min.js"></scripts>
-<![endif]-->
-
-<!-- Comment -->
-
-    
-        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
-    
+  
 
     
 
 
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<link rel="canonical" href="https://blog.yzzi.top/5wwqheMyp/" />
+<link rel="shortcut icon" href="https://blog.yzzi.top//favicon.ico?v=1595845450666">
 
-<!-- katex -->
-<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
+<meta name="author" content="">
 
-<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+<meta itemprop="name" content="如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea | 柚子的小窝">
+<meta itemprop="description" content="为什么需要个人博客？
+  在网上搜索东西，你会发现，许多优质内容总是来自个人博客。个人博客不仅能帮助他人获取信息，也能帮自己记录有用的信息，充当笔记本。“对任何渴望进步的人来说，写博客/文章/回答对自己的成长帮助都是巨大的。频率和数量不必过...">
+<meta itemprop="image" content="https://blog.yzzi.top//post-images/5wwqheMyp.png">
 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea | 柚子的小窝">
+<meta name="twitter:description" content="为什么需要个人博客？
+  在网上搜索东西，你会发现，许多优质内容总是来自个人博客。个人博客不仅能帮助他人获取信息，也能帮自己记录有用的信息，充当笔记本。“对任何渴望进步的人来说，写博客/文章/回答对自己的成长帮助都是巨大的。频率和数量不必过...">
+<meta name="twitter:image" content="https://blog.yzzi.top//post-images/5wwqheMyp.png" />
+<meta name="twitter:image:alt" content="如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea | 柚子的小窝" />
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blog.yzzi.top/5wwqheMyp/">
+<meta property="og:title" content="如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea | 柚子的小窝">
+<meta property="og:description" content="为什么需要个人博客？
+  在网上搜索东西，你会发现，许多优质内容总是来自个人博客。个人博客不仅能帮助他人获取信息，也能帮自己记录有用的信息，充当笔记本。“对任何渴望进步的人来说，写博客/文章/回答对自己的成长帮助都是巨大的。频率和数量不必过...">
+<meta property="og:image" content="https://blog.yzzi.top//post-images/5wwqheMyp.png">
+<meta property="og:image:alt" content="如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea | 柚子的小窝" />
+<meta property="og:site_name" content="柚子的小窝">
+<meta property="og:locale" content="zh_CN">
+<meta property="tag" content="如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea | 柚子的小窝" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="alternate" type="application/atom+xml" title="如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea | 柚子的小窝 - Atom Feed" href="https://blog.yzzi.top//atom.xml">
+
+  
+  
+  
+    
+  
+  
+
+
+  
+
+
+
+  
 
 
 </head>
+
 <body>
-    <div id="fh5co-offcanvas">
-    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
-        <span><i class="icon-cross3"></i> <span>Close</span></span>
-    </a>
-    <div class="fh5co-bio">
-        <figure>
-            <img src="https://blog.yzzi.top//images/avatar.png" alt="柚子的小窝"
-                 class="img-responsive">
-        </figure>
-        <a href="https://blog.yzzi.top//post/about/"><h3 class="heading">ABOUT ME</h3></a>
-        <h2>柚子的小窝</h2>
-        <p>温故而知新</p>
-        <ul class="fh5co-social">
+  <input type="checkbox" id="header-menu-button">
+  <header id="commonTop">
+  <div class="top-container">
+    <div class="title-menus-area">
+      <a class="blog-title" href="https://blog.yzzi.top/">柚子的小窝</a>
+      <label for="header-menu-button" class="top-menus">
+        <nav class="menu-menu-1-container">
+          <ul id="menu-menu-1" class="menu">
             
-                <li>
-                    
-                        <a href="https://github.com/uiYzzi" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    
-                </li>
             
-                <li>
-                    
-                </li>
+            <li>
+              <a href="/" aria-current="page">首页</a></li>
             
-                <li>
-                    
-                </li>
             
-                <li>
-                    
-                        <a href="https://www.zhihu.com/people/zu-mi-yun-yu" target="_blank">
-                            <i class="fab fa-zhihu"></i>
-                        </a>
-                    
-                </li>
             
-                <li>
-                    
-                </li>
+            <li>
+              <a href="/archives" aria-current="page">归档</a></li>
             
-        </ul>
+            
+            
+            <li>
+              <a href="/tags" aria-current="page">标签</a></li>
+            
+            
+            
+            <li>
+              <a href="/about" aria-current="page">关于</a></li>
+            
+            
+          </ul>
+        </nav>
+      </label>
     </div>
-
-    <div class="fh5co-menu">
-
-        <!-- 标签 -->
-        <div class="fh5co-box">
-            <a href="https://blog.yzzi.top//tags/"><h3 class="heading">👉标签</h3></a>
-            <ul>
-                
-                    <li><a href="https://blog.yzzi.top/yYvZWK3Ir/">博客教程</a></li>
-                
-                    <li><a href="https://blog.yzzi.top/FJThj_31aJ/">Github</a></li>
-                
-                    <li><a href="https://blog.yzzi.top/Sr4STpqc1/">Gridea</a></li>
-                
-            </ul>
-        </div>
-    </div>
-</div>
-
-<header id="fh5co-header">
-    <div class="container-fluid">
-        <div class="row">
-            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-            <ul class="fh5co-social">
-                
-                    <li>
-                        <a href="/"
-                        
-                        >
-                            首页
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/archives"
-                        
-                        >
-                            归档
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags"
-                        
-                        >
-                            标签
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/about"
-                        
-                        >
-                            关于
-                        </a>
-                    </li>
-                
-            </ul>
-            <div class="col-lg-12 col-md-12 text-center">
-                <h1 id="fh5co-logo">
-                    <a href="https://blog.yzzi.top/">柚子的小窝 </a>
-                </h1>
-            </div>
-        </div>
-    </div>
-</header>
-
-
-    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
-    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
-
-    <!-- 等gridea出自定义页面功能再优化一下 -->
     
-        <div class="container-fluid">
-    <div class="row fh5co-post-entry single-entry">
-        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-            <figure class="animate-box">
-                
-                    <img src="https://blog.yzzi.top//post-images/5wwqheMyp.png" alt="如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea" class="img-responsive">
-                
-            </figure>
-            <span class="fh5co-meta animate-box">
-                
-                    <div class="tag-container">
-                        
-                            <a href="https://blog.yzzi.top/yYvZWK3Ir/" class="tag">博客教程, </a>
-                        
-                            <a href="https://blog.yzzi.top/FJThj_31aJ/" class="tag">Github, </a>
-                        
-                            <a href="https://blog.yzzi.top/Sr4STpqc1/" class="tag">Gridea, </a>
-                        
-                    </div>
-                
-            </span>
-            <h2 class="fh5co-article-title animate-box">如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea</h2>
-            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
-                <li>2020-07-27</li>
-                <li>481字</li>
-                <li>2 min read</li>
-            </ol>
+  </div>
+</header>
+  <main>
+    <div class="main-container">
 
-            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
-                <div class="row">
-                    <div class="col-md-12 animate-box post-content">
-                        <p> <h1 id="为什么需要个人博客">为什么需要个人博客？</h1>
+      <div class="article-info">
+        
+          <div class="flex-box meta-category">
+            <a class="post-cate" href="https://blog.yzzi.top/yYvZWK3Ir/">博客教程</a></div>
+          
+        <h2 class="article-title">
+          <a href="https://blog.yzzi.top/5wwqheMyp/">如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea</a>
+        </h2>
+        <div class="flex-box">
+          <div class="flex-box post-meta-box">
+            <a class="post-meta" href="https://blog.yzzi.top/"><span
+                class="iconfont icon-mr-postmeta"></span></a>
+            <span class="post-meta"><span class="iconfont icon-mr-postmeta"></span>2020 年 07	月 27日</span>
+            
+
+
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h1 id="为什么需要个人博客">为什么需要个人博客？</h1>
 <p>  在网上搜索东西，你会发现，许多优质内容总是来自个人博客。个人博客不仅能帮助他人获取信息，也能帮自己记录有用的信息，充当笔记本。“对任何渴望进步的人来说，写博客/文章/回答对自己的成长帮助都是巨大的。频率和数量不必过分强求，有话要说就写写，没事就歇歇，随意点。因为坚持写作的那一刻起，你就已经开始受益。”</p>
 <h1 id="创建github仓库">创建GitHub仓库</h1>
 <p>  你需要一个<code>GitHub</code>仓库用于存放博客的静态页面文件。注意，本文并没有用到<code>GitHub Page</code>功能，因此仓库名可随意取。（如果不知道<code>GitHub</code>是什么请百度）</p>
@@ -222,157 +176,92 @@
 <h1 id="参考文档">参考文档</h1>
 <p><strong>  <a href="https://gridea.dev/docs/">Gridea官方文档</a></strong><br>
 <strong>  <a href="https://vercel.com/docs">Vercel官方文档</a></strong></p>
- </p>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-md-12 animate-box">
-                        
-                    </div>
-                </div>
+      </div>
 
-                <div class="row">
-    <div class="col-md-12 animate-box">
+      
+
+      
+      
+
+      <div class="post-tags">
         
-            
-                <div id="gitalk-container"></div>
-            
-
-            
+        <a href="https://blog.yzzi.top/yYvZWK3Ir/" rel="tag">博客教程</a>        
         
+        <a href="https://blog.yzzi.top/FJThj_31aJ/" rel="tag">Github</a>        
+        
+        <a href="https://blog.yzzi.top/Sr4STpqc1/" rel="tag">Gridea</a>        
+               
+      </div>
+
+
+        
+        
+
+          
+
+            
+
+              
+
+          
+          
+
     </div>
-</div>
 
-            </div>
+    <div class="sidebar">
+  <aside id="profile-2" class="widget widget_profile">
+    <div class="profile-box">
+      <div class="profile-avatar">
+        <amp-img src="https://blog.yzzi.top//images/avatar.png?v=1595845450666" alt="avatar"
+          layout="fill"></amp-img>
+      </div>
+      <div class="profile-content">
+        <div class="amp-wp-681d4ff">
+          温故而知新
+        </div>
 
-        </article>
+      </div>
     </div>
-</div>
-
+  </aside>
+  
     
+  
+     
 
-    <!-- 返回顶部 -->
-    <div class="back-to-top">
-    
-        <a href="#!" id="tool-toc" class="hidden-xs hidden-sm">
-            <i class="fa fa-map"></i>
-        </a>
-        <br>
-    
-    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
-</div>
 
-<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
-    <ul class="markdownIt-TOC">
-<li><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2">为什么需要个人博客？</a></li>
-<li><a href="#%E5%88%9B%E5%BB%BAgithub%E4%BB%93%E5%BA%93">创建GitHub仓库</a></li>
-<li><a href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAtokens">创建一个<code>tokens</code></a><br>
-*
-<ul>
-<li><a href="#1%E8%AE%BF%E9%97%AEhttpsgithubcomsettingstokens">  1.访问<a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a></a></li>
-<li><a href="#2%E5%88%9B%E5%BB%BA%E6%96%B0tokens">  2.创建新<code>Tokens</code></a></li>
-</ul>
-</li>
-<li><a href="#%E4%B8%8B%E8%BD%BDgridea">下载Gridea</a></li>
-<li><a href="#%E8%AE%BE%E7%BD%AEgridea">设置Gridea</a></li>
-<li><a href="#%E5%90%8C%E6%AD%A5%E5%88%B0github">同步到GitHub</a></li>
-<li><a href="#%E7%94%A8vercel%E5%8A%A0%E9%80%9F%E5%8D%9A%E5%AE%A2">用Vercel加速博客</a><br>
-*
-<ul>
-<li><a href="#1%E7%99%BB%E9%99%86vercel">  1.登陆Vercel</a></li>
-<li><a href="#2%E5%AF%BC%E5%85%A5github%E4%BB%93%E5%BA%93">  2.导入GitHub仓库</a></li>
-<li><a href="#3%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D">  3.绑定域名</a></li>
-</ul>
-</li>
-<li><a href="#%E7%BB%93%E6%9D%9F">结束</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3">参考文档</a></li>
-</ul>
+  <aside id="linkcat-2" class="widget widget_links">
+  <h4 class="widget-title">友链</h4>
+  <ul class="xoxo blogroll">
+    
+  </ul>
+</aside>
+
 
 </div>
+    <div class="scrolltop-wrap">
+  <span tabindex="0" role="button" class="go-top" on="tap:commonTop.scrollTo(duration=500, position=top)">
+    <span class="iconfont"></span>
+  </span>
+</div>
+  </main>
+  <footer>
+  <div class="footer-container">
+    <div class="footer-menus">
+    </div>
+    <div class="footer-copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+      
+      
 
-
-    
-<footer id="fh5co-footer">
-  <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
+    </div>
+  </div>
 </footer>
 
 
-    <!-- jQuery -->
-<script src="https://blog.yzzi.top//media/scripts/jquery.min.js"></script>
-<!-- img lazy load -->
-<script src="https://blog.yzzi.top//media/scripts/jquery.lazyload.min.js"></script>
-<!-- jQuery Easing -->
-<script src="https://blog.yzzi.top//media/scripts/jquery.easing.1.3.js"></script>
-<!-- Bootstrap -->
-<script src="https://blog.yzzi.top//media/scripts/bootstrap.min.js"></script>
-<!-- Waypoints -->
-<script src="https://blog.yzzi.top//media/scripts/jquery.waypoints.min.js"></script>
-<!-- Main JS -->
-<script src="https://blog.yzzi.top//media/scripts/main.js"></script>
-<!-- Md5 Min JS -->
-<script src="https://blog.yzzi.top//media/scripts/md5.min.js"></script>
-<!-- katex -->
-<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
-<!-- highlight -->
-<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
-
-
-<script type="application/javascript">
-    // 代码高亮
-    hljs.initHighlightingOnLoad();
-
-    // img 懒加载
-    $(function () {
-        $("img.lazy").lazyload({
-            effect: "fadeIn",  // 懒加载动画
-            threshold: 180  // 在图片距离屏幕180px时提前载入
-        });
-        // tooltip
-        $('[data-toggle="tooltip"]').tooltip();
-
-        // 目录
-        $('#tool-toc').click(function () {
-            $('.post-toc').toggle();
-        });
-    });
-
-    
-        var allImg = $("img");
-        allImg.on("contextmenu", function () {
-            return false;
-        });
-        allImg.on("dragstart", function () {
-            return false;
-        });
-    
-</script>
-
-
-
-    
-        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
-        <script>
-
-            var gitalk = new Gitalk({
-                clientID: 'cd17038db161edb68862',
-                clientSecret: '3ababc413d47f4cf6f9482e00806a6651cca1542',
-                repo: 'fluffy-dollop',
-                owner: 'uiYzzi',
-                admin: ['uiYzzi'],
-                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
-                distractionFreeMode: false  // Facebook-like distraction free mode
-            })
-
-            gitalk.render('gitalk-container')
-
-        </script>
-    
-
-    
-
-
+  
 
 
 </body>
+
 </html>
