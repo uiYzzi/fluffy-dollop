@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.yzzi.top/</id>
-    <title>柚子的小窝</title>
-    <updated>2020-07-27T11:16:07.229Z</updated>
+    <title>一只科技菌</title>
+    <updated>2020-07-27T13:04:02.337Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.yzzi.top/"/>
     <link rel="self" href="https://blog.yzzi.top/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>一只科技菌</subtitle>
     <logo>https://blog.yzzi.top/images/avatar.png</logo>
     <icon>https://blog.yzzi.top/favicon.ico</icon>
-    <rights>All rights reserved 2020, 柚子的小窝</rights>
+    <rights>All rights reserved 2020, 一只科技菌</rights>
     <entry>
         <title type="html"><![CDATA[如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea]]></title>
         <id>https://blog.yzzi.top/5wwqheMyp/</id>
