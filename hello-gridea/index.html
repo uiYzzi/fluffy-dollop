@@ -24,6 +24,12 @@
 
 <!-- Comment -->
 
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
+
+    
+
 
 
 <!-- katex -->
@@ -51,9 +57,9 @@
             
                 <li>
                     
-                </li>
-            
-                <li>
+                        <a href="https://github.com/uiYzzi" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
                     
                 </li>
             
@@ -62,6 +68,14 @@
                 </li>
             
                 <li>
+                    
+                </li>
+            
+                <li>
+                    
+                        <a href="https://www.zhihu.com/people/zu-mi-yun-yu" target="_blank">
+                            <i class="fab fa-zhihu"></i>
+                        </a>
                     
                 </li>
             
@@ -201,6 +215,12 @@
                 <div class="row">
     <div class="col-md-12 animate-box">
         
+            
+                <div id="gitalk-container"></div>
+            
+
+            
+        
     </div>
 </div>
 
@@ -281,7 +301,38 @@
     });
 
     
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
+    
 </script>
+
+
+
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
+
+            var gitalk = new Gitalk({
+                clientID: 'cd17038db161edb68862',
+                clientSecret: '3ababc413d47f4cf6f9482e00806a6651cca1542',
+                repo: 'fluffy-dollop',
+                owner: 'uiYzzi',
+                admin: ['uiYzzi'],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('gitalk-container')
+
+        </script>
+    
+
+    
 
 
 
