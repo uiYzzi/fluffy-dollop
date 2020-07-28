@@ -6,7 +6,7 @@
 
 <title>如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea | 一只科技菌</title>
 
-<link rel="shortcut icon" href="https://blog.yzzi.top//favicon.ico?v=1595909786638">
+<link rel="shortcut icon" href="https://blog.yzzi.top//favicon.ico?v=1595915429357">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.yzzi.top//styles/main.css">
@@ -93,7 +93,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" data-update="1595909786638" action="/search/index.html"><input
+            <form id="gridea-search-form" data-update="1595915429357" action="/search/index.html"><input
                     class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="在这里搜索哦！" />
             </form>
         </div>
@@ -136,25 +136,25 @@
 <h4 id="结束"><a href="#8">结束</a></h4>
 <h4 id="参考文档"><a href="#9">参考文档</a></h4>
 </blockquote>
-<h1 id="span-id-1为什么需要个人博客span"><span id = "1">为什么需要个人博客？</span></h1>
+<h2 id="span-id-1为什么需要个人博客span"><span id = "1">为什么需要个人博客？</span></h2>
 <p>  在网上搜索东西，你会发现，许多优质内容总是来自个人博客。个人博客不仅能帮助他人获取信息，也能帮自己记录有用的信息，充当笔记本。“对任何渴望进步的人来说，写博客/文章/回答对自己的成长帮助都是巨大的。频率和数量不必过分强求，有话要说就写写，没事就歇歇，随意点。因为坚持写作的那一刻起，你就已经开始受益。”</p>
-<h1 id="span-id-2创建github仓库span"><span id = "2">创建GitHub仓库</span></h1>
+<h2 id="span-id-2创建github仓库span"><span id = "2">创建GitHub仓库</span></h2>
 <p>  你需要一个<code>GitHub</code>仓库用于存放博客的静态页面文件。注意，本文并没有用到<code>GitHub Page</code>功能，因此仓库名可随意取。（如果不知道<code>GitHub</code>是什么请百度）</p>
-<h1 id="span-id-3创建一个tokensspan"><span id = "3">创建一个<code>tokens</code></span></h1>
+<h2 id="span-id-3创建一个tokensspan"><span id = "3">创建一个<code>tokens</code></span></h2>
 <p>  你需要一个<code>Tokens</code>用于<code>Gridea</code>的同步。</p>
 <h3 id="1访问httpsgithubcomsettingstokens">  1.访问<a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a></h3>
 <h3 id="2创建新tokens">  2.创建新<code>Tokens</code></h3>
 <p>    在创建<code>Tokens</code>时，名字可随意，只需勾选<code>repo</code>相关权限即可，如下图<br>
 <img src="https://i.loli.net/2020/07/27/WYKyD1daIjPqBLk.png" alt="" loading="lazy"></p>
-<h1 id="span-id-4下载grideaspan"><span id = "4">下载Gridea</span></h1>
+<h2 id="span-id-4下载grideaspan"><span id = "4">下载Gridea</span></h2>
 <p>  <a href="https://gridea.dev/#started">Gridea官网</a>，请选择对应的系统版本下载并安装。</p>
-<h1 id="span-id-5设置grideaspan"><span id = "5">设置Gridea</span></h1>
+<h2 id="span-id-5设置grideaspan"><span id = "5">设置Gridea</span></h2>
 <p>  按照下图填写好相应信息（前面几步获取的仓库名和<code>Tokens</code>）<br>
 <img src="https://i.loli.net/2020/07/27/3GCD8PRLFjJAMlX.png" alt="" loading="lazy"></p>
-<h1 id="span-id-6同步到githubspan"><span id = "6">同步到GitHub</span></h1>
+<h2 id="span-id-6同步到githubspan"><span id = "6">同步到GitHub</span></h2>
 <p>  设置好上一步的信息并检测远程连接没问题的话，就可以同步到<code>GitHub</code>啦！<br>
 <img src="https://i.loli.net/2020/07/27/HImpx6iQJWKMyZB.png" alt="" loading="lazy"></p>
-<h1 id="span-id-7用vercel加速博客span"><span id = "7">用Vercel加速博客</span></h1>
+<h2 id="span-id-7用vercel加速博客span"><span id = "7">用Vercel加速博客</span></h2>
 <p>  由于<code>GitHub</code>访问速度过慢，我们需要使用<code>Vercel</code>加速。</p>
 <h3 id="1登陆vercel">  1.登陆<a href="https://vercel.com/login">Vercel</a></h3>
 <p>    直接使用GitHub登陆即可</p>
@@ -164,9 +164,9 @@
 <h3 id="3绑定域名">  3.绑定域名</h3>
 <p>    仓库导入后，便可在项目设置中绑定域名或者使用<code>Vercel</code>提供的二级域名<br>
 <img src="https://i.loli.net/2020/07/27/r68HetjWKLNaToM.png" alt="" loading="lazy"></p>
-<h1 id="span-id-8结束span"><span id = "8">结束</span></h1>
+<h2 id="span-id-8结束span"><span id = "8">结束</span></h2>
 <p>  按照上面做完以后，你就能得到一个地址为<code>xxxx.vercel.app</code>的博客啦，并且可以通过<code>https</code>访问，国内速度还超快哦。</p>
-<h1 id="span-id-9参考文档span"><span id = "9">参考文档</span></h1>
+<h2 id="span-id-9参考文档span"><span id = "9">参考文档</span></h2>
 <p><strong>  <a href="https://gridea.dev/docs/">Gridea官方文档</a></strong><br>
 <strong>  <a href="https://vercel.com/docs">Vercel官方文档</a></strong></p>
 
