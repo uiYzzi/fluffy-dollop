@@ -4,7 +4,7 @@
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>Markdown | 一只科技菌</title>
+<title>[转载]掘金头像的旋转（transform） | 一只科技菌</title>
 
 <link rel="shortcut icon" href="https://blog.yzzi.top//favicon.ico?v=1595908400932">
 
@@ -33,11 +33,11 @@
     </script>
 
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
 </head>
 <body>
 <div class="main gt-bg-theme-color-first">
-    <div class="main-content">
-        <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
     <div class="navbar-brand">
         <img class="user-avatar" src="/images/avatar.png" alt="头像">
         <div class="site-name gt-c-content-color-first">
@@ -99,49 +99,118 @@
         </div>
     </div>
 </nav>
-        <div class="current-tag-container">
-            <h2 class="title gt-c-content-color-first">
-                #Markdown
-            </h2>
-        </div>
-        <div class="post-list-container">
-    <div class="post-inner">
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://blog.yzzi.top/eNlnQbSJX/">
-                            <span class="post-title gt-c-content-color-first">关于Markdown</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2014-07-27 ·
-                        </time>
-                        
-                            <a href="https://blog.yzzi.top/O6S66OgdL/" class="post-tag">
-                                # Markdown
-                            </a>
-                        
-                    </div>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    [转载]掘金头像的旋转（transform）
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2020-07-28 ·
+                    </time>
+                    
                 </div>
-                
-                    <a href="https://blog.yzzi.top/eNlnQbSJX/" class="post-feature-image"
-                       style="background-image: url('https://blog.yzzi.top//post-images/eNlnQbSJX.jpg')">
-                    </a>
-                
+                <div class="post-content">
+                    <p><a href="https://blog.csdn.net/lunhui1994_/article/details/86169321">原文地址</a></p>
+<blockquote>
+<p>在浏览掘金个人主页的时候鼠标放在了头像上发现了头像竟然旋转的越来越快，想用js的setInterval实现一下这个旋转，但是发现效果不好，最后发现掘金的实现方式只用了css3。</p>
+</blockquote>
+<pre><code>#pic:hover {
+            transform: rotate(666turn);
+            transition-delay: 1s;
+            transition-property: all;
+            transition-duration: 59s;
+            transition-timing-function: cubic-bezier(.34,0,.84,1);
+        }
+</code></pre>
+<p>  首先给任意的元素加上这些css就可以进行旋转了。<br>
+  查看了一下这些属性的意思，下面介绍一下</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">transform</th>
+<th style="text-align:right">transition-delay</th>
+<th style="text-align:right">transition-property</th>
+<th style="text-align:right">transition-duration</th>
+<th>transition-timing-function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">rotate(666trun)</td>
+<td style="text-align:right">1s</td>
+<td style="text-align:right">all</td>
+<td style="text-align:right">59s</td>
+<td>cubic-bezier(0.34,0,0.84,1)</td>
+</tr>
+</tbody>
+</table>
+<p>  以上是该效果所用到的css属性。</p>
+<ul>
+<li>transform: rotate(666turn); 常见的用来旋转元素角度的css，这里用到的是turn，1turn = 360°</li>
+<li>transition-delay：1s; 这个属性的作用就是效果执行前的等待时间</li>
+<li>transition-property: all; 这个属性是指明效果变换的位置，比如width，height等，all是所有属性。</li>
+<li>transition-duration: 59s; 过渡效果的持续时间。</li>
+<li>transition-timing-function: cubic-bezier(.34,0,.84,1); 过渡效果的速度曲线 四个值的范围都是0-1 代表整个过程。</li>
+</ul>
+<p>由本文我们可以做出头像旋转的效果，具体效果请看本博客<br>
+<img src="https://i.loli.net/2020/07/28/AFnkoeHKYXQat4u.png" alt="" loading="lazy"><br>
+<img src="https://i.loli.net/2020/07/28/eDSqTrAm83aMcgY.png" alt="" loading="lazy"></p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://blog.yzzi.top/5wwqheMyp/" class="post-title gt-a-link">
+                    如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea
+                </a>
             </div>
         
-    </div>
-</div>
-        <div class="pagination-container">
-    
-    
-</div>
+
+        
+            <span id="/mDnMQgKpj/" class="leancloud_visitors" data-flag-title="[转载]掘金头像的旋转（transform）">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <span id = "评论"></span>
+<script src='https://cdn.jsdelivr.net/npm/minivaline@2/dist/MiniValine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1065px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new MiniValine({
+		el: '#vcomments',
+		appId: '7CxfxjzQrlC5uIMmeAAmQW3O-gzGzoHsz',
+		appKey: 'jpt8vMuGVFaQAeOYG59U05rx',
+		avatar: 'mp',
+		pageSize: 10,
+		recordIp: true,
+		placeholder: '点我发评论(。・∀・)ノ',
+		adminEmailMd5: '42c4798d8ce0f670dfce8f822485831d',
+		emoticonUrl: ['https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@master','https://cdn.jsdelivr.net/npm/alus'],
+		visitor: true
+	});
+</script>
+
+        
 
         <div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first">我们一路奋战，不是为了改变世界，而是为了不让世界改变我们。</div>
