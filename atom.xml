@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.yzzi.top/</id>
     <title>一只科技菌</title>
-    <updated>2020-07-28T01:25:54.304Z</updated>
+    <updated>2020-07-28T01:37:07.365Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.yzzi.top/"/>
     <link rel="self" href="https://blog.yzzi.top/atom.xml"/>
@@ -16,25 +16,37 @@
         <link href="https://blog.yzzi.top/5wwqheMyp/">
         </link>
         <updated>2020-07-27T09:03:22.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="为什么需要个人博客">为什么需要个人博客？</h1>
+        <content type="html"><![CDATA[<h2 id="主要内容">主要内容</h2>
+<blockquote>
+<h4 id="为什么需要个人博客"><a href="#1">为什么需要个人博客？</a></h4>
+<h4 id="创建github仓库"><a href="#2">创建GitHub仓库</a></h4>
+<h4 id="创建一个"><a href="#3">创建一个<code>tokens</code></a></h4>
+<h4 id="下载gridea"><a href="#4">下载Gridea</a></h4>
+<h4 id="设置gridea"><a href="#5">设置Gridea</a></h4>
+<h4 id="同步到github"><a href="#6">同步到GitHub</a></h4>
+<h4 id="用vercel加速博客"><a href="#7">用Vercel加速博客</a></h4>
+<h4 id="结束"><a href="#8">结束</a></h4>
+<h4 id="参考文档"><a href="#9">参考文档</a></h4>
+</blockquote>
+<h1 id="span-id-1为什么需要个人博客span"><span id = "1">为什么需要个人博客？</span></h1>
 <p>  在网上搜索东西，你会发现，许多优质内容总是来自个人博客。个人博客不仅能帮助他人获取信息，也能帮自己记录有用的信息，充当笔记本。“对任何渴望进步的人来说，写博客/文章/回答对自己的成长帮助都是巨大的。频率和数量不必过分强求，有话要说就写写，没事就歇歇，随意点。因为坚持写作的那一刻起，你就已经开始受益。”</p>
-<h1 id="创建github仓库">创建GitHub仓库</h1>
+<h1 id="span-id-2创建github仓库span"><span id = "2">创建GitHub仓库</span></h1>
 <p>  你需要一个<code>GitHub</code>仓库用于存放博客的静态页面文件。注意，本文并没有用到<code>GitHub Page</code>功能，因此仓库名可随意取。（如果不知道<code>GitHub</code>是什么请百度）</p>
-<h1 id="创建一个tokens">创建一个<code>tokens</code></h1>
+<h1 id="span-id-3创建一个tokensspan"><span id = "3">创建一个<code>tokens</code></span></h1>
 <p>  你需要一个<code>Tokens</code>用于<code>Gridea</code>的同步。</p>
 <h3 id="1访问httpsgithubcomsettingstokens">  1.访问<a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a></h3>
 <h3 id="2创建新tokens">  2.创建新<code>Tokens</code></h3>
 <p>    在创建<code>Tokens</code>时，名字可随意，只需勾选<code>repo</code>相关权限即可，如下图<br>
 <img src="https://i.loli.net/2020/07/27/WYKyD1daIjPqBLk.png" alt="" loading="lazy"></p>
-<h1 id="下载gridea">下载Gridea</h1>
+<h1 id="span-id-4下载grideaspan"><span id = "4">下载Gridea</span></h1>
 <p>  <a href="https://gridea.dev/#started">Gridea官网</a>，请选择对应的系统版本下载并安装。</p>
-<h1 id="设置gridea">设置Gridea</h1>
+<h1 id="span-id-5设置grideaspan"><span id = "5">设置Gridea</span></h1>
 <p>  按照下图填写好相应信息（前面几步获取的仓库名和<code>Tokens</code>）<br>
 <img src="https://i.loli.net/2020/07/27/3GCD8PRLFjJAMlX.png" alt="" loading="lazy"></p>
-<h1 id="同步到github">同步到GitHub</h1>
+<h1 id="span-id-6同步到githubspan"><span id = "6">同步到GitHub</span></h1>
 <p>  设置好上一步的信息并检测远程连接没问题的话，就可以同步到<code>GitHub</code>啦！<br>
 <img src="https://i.loli.net/2020/07/27/HImpx6iQJWKMyZB.png" alt="" loading="lazy"></p>
-<h1 id="用vercel加速博客">用Vercel加速博客</h1>
+<h1 id="span-id-7用vercel加速博客span"><span id = "7">用Vercel加速博客</span></h1>
 <p>  由于<code>GitHub</code>访问速度过慢，我们需要使用<code>Vercel</code>加速。</p>
 <h3 id="1登陆vercel">  1.登陆<a href="https://vercel.com/login">Vercel</a></h3>
 <p>    直接使用GitHub登陆即可</p>
@@ -44,9 +56,9 @@
 <h3 id="3绑定域名">  3.绑定域名</h3>
 <p>    仓库导入后，便可在项目设置中绑定域名或者使用<code>Vercel</code>提供的二级域名<br>
 <img src="https://i.loli.net/2020/07/27/r68HetjWKLNaToM.png" alt="" loading="lazy"></p>
-<h1 id="结束">结束</h1>
+<h1 id="span-id-8结束span"><span id = "8">结束</span></h1>
 <p>  按照上面做完以后，你就能得到一个地址为<code>xxxx.vercel.app</code>的博客啦，并且可以通过<code>https</code>访问，国内速度还超快哦。</p>
-<h1 id="参考文档">参考文档</h1>
+<h1 id="span-id-9参考文档span"><span id = "9">参考文档</span></h1>
 <p><strong>  <a href="https://gridea.dev/docs/">Gridea官方文档</a></strong><br>
 <strong>  <a href="https://vercel.com/docs">Vercel官方文档</a></strong></p>
 ]]></content>
@@ -59,18 +71,18 @@
         <updated>2014-07-27T09:03:22.000Z</updated>
         <content type="html"><![CDATA[<h2 id="主要内容">主要内容</h2>
 <blockquote>
-<h4 id="markdown是什么">Markdown<em>是什么</em>？</h4>
-<h4 id="谁创造了它"><em>谁</em>创造了它？</h4>
-<h4 id="为什么要使用它"><em>为什么</em>要使用它？</h4>
-<h4 id="怎么使用"><em>怎么</em>使用？</h4>
-<h4 id="谁在用"><em>谁</em>在用？</h4>
-<h4 id="尝试一下">尝试一下</h4>
+<h4 id="markdown"><a href="#1">Markdown<em>是什么</em>？</a></h4>
+<h4 id=""><a href="#2"><em>谁</em>创造了它？</a></h4>
+<h4 id="-2"><a href="#3"><em>为什么</em>要使用它？</a></h4>
+<h4 id="-3"><a href="#4"><em>怎么</em>使用？</a></h4>
+<h4 id="-4"><a href="#5"><em>谁</em>在用？</a></h4>
+<h4 id="尝试一下"><a href="#6">尝试一下</a></h4>
 </blockquote>
 <h2 id="正文">正文</h2>
-<h3 id="1-markdown是什么">1. Markdown<em>是什么</em>？</h3>
+<h3 id="span-id-11-markdown是什么span"><span id = "1">1. Markdown<em>是什么</em>？</span></h3>
 <p><strong>Markdown</strong>是一种轻量级<strong>标记语言</strong>，它以纯文本形式(<em>易读、易写、易更改</em>)编写文档，并最终以HTML格式发布。<br>
 <strong>Markdown</strong>也可以理解为将以MARKDOWN语法编写的语言转换成HTML内容的工具。</p>
-<h3 id="2-谁创造了它">2. <em>谁</em>创造了它？</h3>
+<h3 id="2-span-id-2谁创造了它span">2. <span id = "2"><em>谁</em>创造了它？</span></h3>
 <p>它由<a href="http://www.aaronsw.com/"><strong>Aaron Swartz</strong></a>和<strong>John Gruber</strong>共同设计，<strong>Aaron Swartz</strong>就是那位于去年（<em>2013年1月11日</em>）自杀,有着<strong>开挂</strong>一般人生经历的程序员。维基百科对他的<a href="http://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8">介绍</a>是：<strong>软件工程师、作家、政治组织者、互联网活动家、维基百科人</strong>。</p>
 <p>他有着足以让你跪拜的人生经历：</p>
 <ul>
@@ -83,7 +95,7 @@
 </ul>
 <figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/07/28/wCn2c5HAV3EYgjz.jpg" alt="Aaron Swartz" loading="lazy"></figure>
 <p>天才都有早逝的归途。</p>
-<h3 id="3-为什么要使用它">3. <em>为什么</em>要使用它？</h3>
+<h3 id="3-span-id-3为什么要使用它span">3. <span id = "3"><em>为什么</em>要使用它？</span></h3>
 <ul>
 <li>它是易读（看起来舒服）、易写（语法简单）、易更改<strong>纯文本</strong>。处处体现着<strong>极简主义</strong>的影子。</li>
 <li>兼容HTML，可以转换为HTML格式发布。</li>
@@ -92,7 +104,7 @@
 <li>更方便清晰地组织你的电子邮件。（Markdown-here, Airmail）</li>
 <li>摆脱Word（我不是认真的）。</li>
 </ul>
-<h3 id="4-怎么使用">4. <em>怎么</em>使用？</h3>
+<h3 id="4-span-id-4怎么使用span">4. <span id = "4"><em>怎么</em>使用？</span></h3>
 <p>如果不算<strong>扩展</strong>，Markdown的语法绝对<strong>简单</strong>到让你爱不释手。</p>
 <p>Markdown语法主要分为如下几大部分：<br>
 <strong>标题</strong>，<strong>段落</strong>，<strong>区块引用</strong>，<strong>代码区块</strong>，<strong>强调</strong>，<strong>列表</strong>，<strong>分割线</strong>，<strong>链接</strong>，<strong>图片</strong>，<strong>反斜杠 <code>\</code></strong>，<strong>符号'`'</strong>。</p>
@@ -236,7 +248,7 @@ printf(&quot;Hello, Markdown.&quot;);<br>
 <blockquote>
 <p><code>ctrl+a</code></p>
 </blockquote>
-<h4 id="5-谁在用">5. <em>谁</em>在用？</h4>
+<h4 id="5-span-id-5谁在用span">5. <span id = "5"><em>谁</em>在用？</span></h4>
 <p>Markdown的使用者：</p>
 <ul>
 <li>GitHub</li>
@@ -247,7 +259,7 @@ printf(&quot;Hello, Markdown.&quot;);<br>
 <li>Reddit</li>
 <li>等等</li>
 </ul>
-<h4 id="6-尝试一下">6. 尝试一下</h4>
+<h4 id="6-span-id-6尝试一下span">6. <span id = "6">尝试一下</span></h4>
 <ul>
 <li><strong>Chrome</strong>下的插件诸如<code>stackedit</code>与<code>markdown-here</code>等非常方便，也不用担心平台受限。</li>
 <li><strong>在线</strong>的dillinger.io评价也不错</li>
