@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.yzzi.top/</id>
     <title>一只科技菌</title>
-    <updated>2020-07-28T10:12:31.413Z</updated>
+    <updated>2020-07-28T11:11:11.372Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.yzzi.top/"/>
     <link rel="self" href="https://blog.yzzi.top/atom.xml"/>
@@ -10,6 +10,35 @@
     <logo>https://blog.yzzi.top/images/avatar.png</logo>
     <icon>https://blog.yzzi.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 一只科技菌</rights>
+    <entry>
+        <title type="html"><![CDATA[[软件安利]快捷键提示大法——ShotcutHelper]]></title>
+        <id>https://blog.yzzi.top/DjUxcHNzO/</id>
+        <link href="https://blog.yzzi.top/DjUxcHNzO/">
+        </link>
+        <updated>2020-07-28T10:37:24.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>你还在为记不住快捷键而烦恼吗？还在为软件使用不熟练而烦恼吗？还在担心被大神们嘲笑吗？那就来试试ShotcutHelper吧！</p>
+</blockquote>
+<h2 id="主要内容">主要内容</h2>
+<blockquote>
+<h4 id="什么是shotcuthelper"><a href="#1">什么是ShotcutHelper</a></h4>
+<h4 id="怎么使用"><a href="#2">怎么使用？</a></h4>
+<h4 id="相关文件下载地址"><a href="#3">相关文件下载地址</a></h4>
+</blockquote>
+<h2 id="span-id-1什么是shotcuthelperspan"><span id = "1">什么是<a href="https://github.com/liuzhengdong2/ShotcutHelper">ShotcutHelper</a></span></h2>
+<p><img src="https://i.loli.net/2020/07/28/wVZXC27S8YLpAQa.png" alt="" loading="lazy"><br>
+  <a href="https://github.com/liuzhengdong2/ShotcutHelper">ShotcutHelper</a>是一个软件快捷键提示助手，可以很方便地在忘记软件快捷键的时候快速查看，提高工作效率。有了ShotcutHelper，妈妈再也不用担心我忘记软件快捷键。（作者是一名大三学生，时间不太充裕。目前软件还处于开发阶段，如有问题请到<a href="https://github.com/liuzhengdong2/ShotcutHelper/issues">GitHub提交Issues</a>）</p>
+<h2 id="span-id-2怎么使用span"><span id = "2">怎么使用？</span></h2>
+<p><img src="https://blog.yzzi.top//post-images/1595933895856.gif" alt="" loading="lazy"><br>
+  软件安装完成并启动后，在需要查看快捷键的软件窗口按Ctrl+space唤出<a href="https://github.com/liuzhengdong2/ShotcutHelper">ShotcutHelper</a></p>
+<h2 id="span-id-3相关文件下载地址span"><span id = "3">相关文件下载地址</span></h2>
+<blockquote>
+<p>软件官网：<a href="https://github.com/liuzhengdong2/ShotcutHelper">Github</a><br>
+软件性质：开源免费<br>
+下载地址：<s><a href="https://github.com/liuzhengdong2/ShotcutHelper/releases">Github Releases</a></s>  <a href="https://www.lanzous.com/b859427">作者的蓝奏云</a></p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[软件安利] TinyPng4Mac，给图片来颗减肥药！]]></title>
         <id>https://blog.yzzi.top/T3Z7DHJ7X/</id>
@@ -23,7 +52,7 @@
 <blockquote>
 <h4 id="什么是tinypng"><a href="#1">什么是TinyPng</a></h4>
 <h4 id="tinypng4mac"><a href="#2">TinyPNG4Mac</a></h4>
-<h4 id="怎么使用"><a href="#3">怎么使用？</a>相关文件下载地址</h4>
+<h4 id="怎么使用"><a href="#3">怎么使用？</a></h4>
 <h4 id="相关文件下载地址"><a href="#4">相关文件下载地址</a></h4>
 </blockquote>
 <h2 id="span-id-1什么是tinypngspan"><span id = "1">什么是<a href="https://tinypng.com/">TinyPng</a></span></h2>
