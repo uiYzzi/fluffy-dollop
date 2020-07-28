@@ -6,7 +6,7 @@
 
 <title>友链申请流程 | 一只科技菌</title>
 
-<link rel="shortcut icon" href="https://blog.yzzi.top//favicon.ico?v=1595901936496">
+<link rel="shortcut icon" href="https://blog.yzzi.top//favicon.ico?v=1595906601361">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.yzzi.top//styles/main.css">
@@ -93,7 +93,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" data-update="1595901936496" action="/search/index.html"><input
+            <form id="gridea-search-form" data-update="1595906601361" action="/search/index.html"><input
                     class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="在这里搜索哦！" />
             </form>
         </div>
@@ -163,7 +163,8 @@
         
 
         
-            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+            <span id = "评论"></span>
+<script src='https://cdn.jsdelivr.net/npm/minivaline@2/dist/MiniValine.min.js'></script>
 
 <style>
 	div#vcomments{
@@ -177,15 +178,17 @@
 	<div id="vcomments"></div>
 
 <script>
-	new Valine({
+	new MiniValine({
 		el: '#vcomments',
 		appId: '7CxfxjzQrlC5uIMmeAAmQW3O-gzGzoHsz',
 		appKey: 'jpt8vMuGVFaQAeOYG59U05rx',
 		avatar: 'mp',
 		pageSize: 10,
 		recordIp: true,
-		placeholder: 'Just Go Go',
-		visitor: true,
+		placeholder: '点我发评论(。・∀・)ノ',
+		adminEmailMd5: '42c4798d8ce0f670dfce8f822485831d',
+		emoticonUrl: ['https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@master','https://cdn.jsdelivr.net/npm/alus'],
+		visitor: true
 	});
 </script>
 

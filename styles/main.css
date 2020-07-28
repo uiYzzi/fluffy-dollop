@@ -490,6 +490,17 @@ ul li {
   border-bottom: 2px #495057;
   transition: border-color 0.2s;
 }
+img.vavatar.ls-is-cached.lazyloaded {
+  /*评论区头像旋转*/
+  transition: all 1s /* 旋转时间为 1s */;
+}
+img.vavatar.ls-is-cached.lazyloaded:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
 .navbar {
   padding: 38px 96px !important;
 }
