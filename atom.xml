@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.yzzi.top/</id>
     <title>一只科技菌</title>
-    <updated>2020-07-28T07:59:59.244Z</updated>
+    <updated>2020-07-28T09:05:28.691Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.yzzi.top/"/>
     <link rel="self" href="https://blog.yzzi.top/atom.xml"/>
@@ -10,58 +10,6 @@
     <logo>https://blog.yzzi.top/images/avatar.png</logo>
     <icon>https://blog.yzzi.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 一只科技菌</rights>
-    <entry>
-        <title type="html"><![CDATA[[转载]掘金头像的旋转（transform）]]></title>
-        <id>https://blog.yzzi.top/mDnMQgKpj/</id>
-        <link href="https://blog.yzzi.top/mDnMQgKpj/">
-        </link>
-        <updated>2020-07-28T03:34:42.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/lunhui1994_/article/details/86169321">原文地址</a></p>
-<blockquote>
-<p>在浏览掘金个人主页的时候鼠标放在了头像上发现了头像竟然旋转的越来越快，想用js的setInterval实现一下这个旋转，但是发现效果不好，最后发现掘金的实现方式只用了css3。</p>
-</blockquote>
-<pre><code>#pic:hover {
-            transform: rotate(666turn);
-            transition-delay: 1s;
-            transition-property: all;
-            transition-duration: 59s;
-            transition-timing-function: cubic-bezier(.34,0,.84,1);
-        }
-</code></pre>
-<p>  首先给任意的元素加上这些css就可以进行旋转了。<br>
-  查看了一下这些属性的意思，下面介绍一下</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">transform</th>
-<th style="text-align:right">transition-delay</th>
-<th style="text-align:right">transition-property</th>
-<th style="text-align:right">transition-duration</th>
-<th>transition-timing-function</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">rotate(666trun)</td>
-<td style="text-align:right">1s</td>
-<td style="text-align:right">all</td>
-<td style="text-align:right">59s</td>
-<td>cubic-bezier(0.34,0,0.84,1)</td>
-</tr>
-</tbody>
-</table>
-<p>  以上是该效果所用到的css属性。</p>
-<ul>
-<li>transform: rotate(666turn); 常见的用来旋转元素角度的css，这里用到的是turn，1turn = 360°</li>
-<li>transition-delay：1s; 这个属性的作用就是效果执行前的等待时间</li>
-<li>transition-property: all; 这个属性是指明效果变换的位置，比如width，height等，all是所有属性。</li>
-<li>transition-duration: 59s; 过渡效果的持续时间。</li>
-<li>transition-timing-function: cubic-bezier(.34,0,.84,1); 过渡效果的速度曲线 四个值的范围都是0-1 代表整个过程。</li>
-</ul>
-<p>由本文我们可以做出头像旋转的效果，具体效果请看本博客<br>
-<img src="https://i.loli.net/2020/07/28/AFnkoeHKYXQat4u.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea]]></title>
         <id>https://blog.yzzi.top/5wwqheMyp/</id>
