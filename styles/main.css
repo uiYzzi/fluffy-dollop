@@ -819,7 +819,7 @@ ul li {
 .friend-box .flink-info a {
   font-size: 18px;
   color: #000 !important;
-  background: linear-gradient(180deg, transparent 75%, rgba(116, 192, 252, 0.4) 0);
+  background: linear-gradient(180deg, transparent 75%, #fce5e2 0);
   margin-bottom: 10px;
 }
 .friend-box .flink-info .flink-info-desc {
@@ -1799,7 +1799,7 @@ code::-webkit-scrollbar-thumb:hover {
 }
 
         .gt-bg-theme-color-first {
-          background: #F9F9F9!important;
+          background: #FFFFF!important;
         }
         
         .gt-bg-theme-color-second {
@@ -1823,7 +1823,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-theme-color-first {
-          color: #F9F9F9!important;
+          color: #FFFFF!important;
         }
         
         .gt-c-theme-color-second {
