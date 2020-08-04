@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.yzzi.top/</id>
     <title>一只科技菌</title>
-    <updated>2020-08-04T06:50:08.703Z</updated>
+    <updated>2020-08-04T09:53:30.212Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.yzzi.top/"/>
     <link rel="self" href="https://blog.yzzi.top/atom.xml"/>
@@ -10,6 +10,47 @@
     <logo>https://blog.yzzi.top/images/avatar.png</logo>
     <icon>https://blog.yzzi.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 一只科技菌</rights>
+    <entry>
+        <title type="html"><![CDATA[真•无线耳机QCY T5无线充电改装计划！]]></title>
+        <id>https://blog.yzzi.top/ZmRkQFxWV/</id>
+        <link href="https://blog.yzzi.top/ZmRkQFxWV/">
+        </link>
+        <updated>2020-08-04T08:45:28.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="主要内容">主要内容</h2>
+<blockquote>
+<h4 id="改装原因"><a href="#1">改装原因</a></h4>
+<h4 id="材料购买"><a href="#2">材料购买</a></h4>
+<h4 id="拆拆拆"><a href="#3">拆拆拆！</a></h4>
+<h4 id="改改改"><a href="#4">改改改！</a></h4>
+</blockquote>
+<h2 id="span-id-1改装原因span"><span id = "1">改装原因</span></h2>
+<p>  最近从鱼鱼捡到一个全新未拆封的QCY T5，没想到0202年了居然还有用microusb的设备。于是萌生出改装无线充电的想法。（这耳机底噪有亿点大，不建议入手）</p>
+<h2 id="span-id-2材料购买span"><span id = "2">材料购买</span></h2>
+<ul>
+<li>无线充电模块</li>
+<li>电烙铁</li>
+<li>飞线（我没买）</li>
+</ul>
+<h2 id="span-id-3拆拆拆span"><span id = "3">拆拆拆！</span></h2>
+<p>  <strong>拆的时候忘记拍照了，嘤嘤嘤。</strong><br>
+  拿撬棍捅到缝隙里面撬就好了，注意不要留下明显痕迹（强迫症！），拆开的难度不是很大。</p>
+<h2 id="span-id-4改改改span"><span id = "4">改改改！</span></h2>
+<p>  改装的思路大概就是，从菊花的充电口那里引出正负极，然后与无线充电模块链接。由于我忘记买飞线了，所以就把QCY原装充电线给剪了QAQ。<br>
+<img src="https://blog.yzzi.top//post-images/1596532053268.jpg" alt="图片是从我爱音频网偷来的" loading="lazy"><br>
+  图片是从我爱音频网偷来的<br>
+<img src="https://blog.yzzi.top//post-images/1596532145234.jpg" alt="把线给焊上" loading="lazy"><br>
+<img src="https://blog.yzzi.top//post-images/1596532219901.jpg" alt="" loading="lazy"><br>
+  把线给焊上，测试一下能不能充电。<br>
+<img src="https://blog.yzzi.top//post-images/1596533661284.jpg" alt="" loading="lazy"><br>
+  找了颗灯珠插上测试一下（焊线前一定要先测试呀！）<br>
+<img src="https://blog.yzzi.top//post-images/1596534636150.jpg" alt="" loading="lazy"><br>
+  焊上以后再测试一遍。<br>
+<img src="https://blog.yzzi.top//post-images/1596534694033.jpg" alt="" loading="lazy"><br>
+  装盒，热熔胶伺候。<br>
+<img src="https://blog.yzzi.top//post-images/1596534763529.jpg" alt="" loading="lazy"><br>
+  最终成品</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[软件安利]快捷键提示大法——ShotcutHelper]]></title>
         <id>https://blog.yzzi.top/DjUxcHNzO/</id>
