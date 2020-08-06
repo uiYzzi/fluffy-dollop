@@ -6,7 +6,7 @@
 
 <title>如何拥有一个访问速度超快的个人博客？GitHub+Vercel+Gridea | 一只科技菌</title>
 
-<link rel="shortcut icon" href="https://blog.yzzi.top//favicon.ico?v=1596729739972">
+<link rel="shortcut icon" href="https://blog.yzzi.top//favicon.ico?v=1596726534130">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.yzzi.top//styles/main.css">
@@ -100,7 +100,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" data-update="1596729739972" action="/search/index.html"><input
+            <form id="gridea-search-form" data-update="1596726534130" action="/search/index.html"><input
                     class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="在这里搜索哦！" />
             </form>
         </div>
@@ -238,7 +238,7 @@
 <script>
     L2Dwidget.init({
         "model": {
-            jsonPath: "<%= themeConfig.domain %>/media/live2dw/assets/22.model.json",
+            jsonPath: "https://live2dw.vercel.app/22/assets/22.model.json",
             "scale": 1
         },
         "display": {
@@ -286,29 +286,28 @@
         var a = Math.random() + ""          //产生一个随机数  
         var rand1 = a.charAt(5)             //的到这个数的第五个字符(实际还是从0~9的数字)  
         quotes = new Array              //创建消息数组  
-        name = new Array
-        name[1] = '22'
-        name[2] = 'koharu'
-        name[3] = 'wanko'
-        name[4] = 'miku'
-        name[5] = 'z16'
-        name[6] = 'chitose'
-        name[7] = 'tororo'
-        name[8] = 'izumi'
-        name[9] = 'gf'
-        name[0] = 'unitychan'
-        quotes[1] = 'https://blog.yzzi.top//media/live2dw/assets/22.model.json'               //这里分配十随机出现的文本  
-        quotes[2] = 'https://cdn.jsdelivr.net/npm/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json'  
-        quotes[3] = 'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json'  
-        quotes[4] = 'https://cdn.jsdelivr.net/npm/live2d-widget-model-miku@1.0.5/assets/miku.model.json'  
-        quotes[5] = 'https://cdn.jsdelivr.net/npm/live2d-widget-model-z16@1.0.5/assets/z16.model.json'  
-        quotes[6] = 'https://cdn.jsdelivr.net/npm/live2d-widget-model-chitose@1.0.5/assets/chitose.model.json'   
-        quotes[7] = 'https://cdn.jsdelivr.net/npm/live2d-widget-model-tororo@1.0.5/assets/tororo.model.json'  
-        quotes[8] = 'https://cdn.jsdelivr.net/npm/live2d-widget-model-izumi@1.0.5/assets/izumi.model.json' 
-        quotes[9] = 'https://cdn.jsdelivr.net/npm/live2d-widget-model-gf@1.0.5/assets/Gantzert_Felixander.model.json' 
-        quotes[0] = 'https://cdn.jsdelivr.net/npm/live2d-widget-model-unitychan@1.0.5/assets/unitychan.model.json' 
+        names = new Array
+        names[1] = '22'
+        names[2] = 'koharu'
+        names[3] = 'wanko'
+        names[4] = 'miku'
+        names[5] = 'z16'
+        names[6] = 'chitose'
+        names[7] = 'tororo'
+        names[8] = 'izumi'
+        names[9] = 'gf'
+        names[0] = 'unitychan'
+        quotes[1] = 'https://blog.yzzi.top//media/live2dw/22/assets/22.model.json'               //这里分配十随机出现的文本  
+        quotes[2] = 'https://blog.yzzi.top//media/live2dw/koharu/assets/koharu.model.json'  
+        quotes[3] = 'https://blog.yzzi.top//media/live2dw/wanko/assets/wanko.model.json'  
+        quotes[4] = 'https://blog.yzzi.top//media/live2dw/miku/assets/miku.model.json'  
+        quotes[5] = 'https://blog.yzzi.top//media/live2dw/z16/assets/z16.model.json'  
+        quotes[6] = 'https://blog.yzzi.top//media/live2dw/chitose/assets/chitose.model.json'   
+        quotes[7] = 'https://blog.yzzi.top//media/live2dw/tororo/assets/tororo.model.json'  
+        quotes[8] = 'https://blog.yzzi.top//media/live2dw/izumi/assets/izumi.model.json' 
+        quotes[9] = 'https://blog.yzzi.top//media/live2dw/nipsilon/assets/nipsilon.model.json' 
+        quotes[0] = 'https://blog.yzzi.top//media/live2dw/unitychan/assets/unitychan.model.json' 
         var quote = quotes[rand1]   //由随机数选择
-        document.write("看板娘："+name[rand1])
     L2Dwidget.init({
         "model": {
             jsonPath: quote,
@@ -334,6 +333,9 @@
     <div class="footer-info">
         <a href="https://travellings.now.sh/" title="开往-友链接力"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a>
     </div>
+    <script>
+        document.write("看板娘："+names[rand1])
+    </script>
 </div>
 
 <script>
